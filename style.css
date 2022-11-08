@@ -1,0 +1,52 @@
+#container {
+  padding: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#metronome {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bpm-container {
+  font-family: monospace;
+  font-size: 20px;
+  
+}
+
+#tempo-circles {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.circle {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+  margin-right: 10px;
+}
+
+#tempo-slider {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tempo-button {
+  width: 10px;
+  height: 10px;
+}
+
+.material-symbols-sharp {
+  color: red;
+  width: 100px;
+  height: 100px;
+}
+
