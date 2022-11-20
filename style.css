@@ -14,7 +14,7 @@
 #bpm-container {
   font-family: monospace;
   font-size: 20px;
-  
+
 }
 
 #tempo-circles {
@@ -22,7 +22,7 @@
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  
+
 }
 .circle {
   border-radius: 50%;
@@ -30,6 +30,17 @@
   height: 20px;
   background-color: gray;
   margin-right: 10px;
+}
+
+#beats {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.beat-button {
+  width: 10px;
+  height: 10px;
 }
 
 #tempo-slider {
@@ -47,6 +58,22 @@
 .material-symbols-sharp {
   color: red;
   width: 100px;
-  height: 100px;
+  height: 100
 }
 
+#subdivisions {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.note {
+  width: 50px;
+  height: 50px;
+}
+#quarter{
+  content:url(images/quarter-note.svg)
+}
+#eighth{
+  content:url(images/eighth-note.svg)
+}
